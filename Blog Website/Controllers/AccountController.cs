@@ -20,7 +20,7 @@ namespace Blog_Website.Controllers
         {
             return View();
         }
-
+//sa
         [HttpPost]
         public async Task<IActionResult> Register(Register register)
         {
