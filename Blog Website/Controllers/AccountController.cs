@@ -47,6 +47,7 @@ namespace Blog_Website.Controllers
 
             return View();
         }
+// Bu yorum, feature-auth branch'inde örnek değişikliktir
 
         [HttpGet]
         public IActionResult Login(string ReturnUrl)
